@@ -12,5 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('admin/layout/layout');
+    return view('admin/layout/admin');
 });
+
+
+Route::prefix('/dashboard/sections')->group(function () {
+    Route::namespace('Categoryis')->group(function () {
+
+      Route::get('/','CategoryisControllers@index');
+
+    });
+});
+

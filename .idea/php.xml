@@ -97,6 +97,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/oscarafdev/migrations-generator" />
       <path value="$PROJECT_DIR$/vendor/oscarafdev/laravel-4-generators" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
